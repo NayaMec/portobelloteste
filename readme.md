@@ -153,3 +153,32 @@ Classe utilitária para gerenciamento de eventos customizados (pub/sub), usada p
 - SCSS Modules
 - Vite
 - Integração com backend Java via REST
+
+### Melhorias Futuras
+
+#### Frontend
+
+- **Autenticação e Autorização:** Implementar login, controle de sessão e permissões de acesso (ex: JWT).
+- **Paginação e Filtros Avançados:** Adicionar paginação, filtros e ordenação na listagem de pedidos.
+- **Responsividade Completa:** Melhorar a experiência mobile e adaptar o layout para diferentes dispositivos.
+- **Internacionalização (i18n):** Suporte a múltiplos idiomas na interface.
+- **Testes Automatizados:** Ampliar cobertura com testes unitários e de integração (React Testing Library, Cypress).
+- **Feedback Visual Aprimorado:** Adicionar loaders, skeletons e animações para melhorar a experiência do usuário.
+- **Validações Avançadas:** Regras de validação mais robustas nos formulários.
+- **Gerenciamento de Estado Global:** Avaliar uso de Context API, Redux ou Zustand para estados compartilhados.
+- **Documentação Técnica:** Gerar documentação automática dos serviços e hooks.
+- **Acessibilidade:** Garantir navegação acessível (teclado, leitores de tela, contraste).
+- **Deploy Automatizado:** Pipeline CI/CD para publicação automática do frontend.
+
+#### Backend
+
+- **Autenticação e Autorização:** Implementar autenticação JWT e controle de permissões por usuário.
+- **Paginação e Filtros:** Adicionar paginação e filtros nos endpoints de listagem.
+- **Logs e Monitoramento:** Implementar logs estruturados e monitoramento de erros.
+- **Testes de Integração:** Ampliar cobertura de testes, incluindo testes de integração e de carga.
+- **Documentação Avançada:** Melhorar a documentação da API com exemplos e cenários de uso.
+- **Versionamento de API:** Adicionar versionamento para facilitar futuras evoluções.
+- **Validação Centralizada:** Utilizar handlers globais para validação e tratamento de exceções.
+- **Deploy Automatizado:** Pipeline CI/CD para publicação automática do backend.
+- **Cache:** Implementar cache para consultas frequentes.
+- **Rate Limiting:** Proteger a API contra abusos com
