@@ -4,6 +4,75 @@
 
 #### [Vídeo da aplicação funcionando](https://www.loom.com/share/c23732a4879c407f9d968340b15f68c7?sid=16435b7c-942a-46c9-9dd5-aa972ade7301)
 
+## Passo a Passo para Testar o Projeto (Frontend e Backend)
+
+### 1. Clonar o Repositório
+
+```bash
+git clone <URL_DO_REPOSITORIO>
+cd PortobelloTeste
+```
+
+### 2. Backend
+
+a) Pré-requisitos
+Java 17+
+Maven
+Docker (para MongoDB)
+
+b) Subir o MongoDB com Docker
+
+```bash
+docker run -d -p 27017:27017 --name mongo mongo:latest
+```
+
+c) Rodar o Backend
+
+```bash cd portobelloBE
+mvn clean install
+mvn spring-boot:run
+mvn test
+```
+
+### 3. Frontend
+
+a) Pré-requisitos
+Node.js 18+
+npm ou yarn
+
+b) Instalar Dependências
+
+```bash
+cd ../portobelloFE
+npm install
+# ou
+yarn
+```
+
+c) Rodar o Frontend
+
+```bash
+npm run dev
+# ou
+yarn dev
+```
+
+##### Acesse a aplicação em: http://localhost:5173
+
+d) Rodar os Testes do Frontend (se implementados)
+
+```bash
+npm test
+# ou
+yarn test
+```
+
+### 4. Testar a Aplicação
+
+Crie, edite, visualize e exclua pedidos pelo frontend.
+Verifique as respostas e logs no backend.
+Consulte a documentação Swagger para testar endpoints diretamente.
+
 ## Backend
 
 Este projeto é um microsserviço de pedidos B2B, desenvolvido como parte de um desafio técnico para a Portobello. Ele permite **criar, listar, editar e deletar pedidos por ID**, com persistência em MongoDB e documentação automática com Swagger.
