@@ -1,0 +1,36 @@
+.detailed-order {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+
+  .infos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 4.8rem;
+    column-gap: 2.4rem;
+
+    .detailed-info {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+
+      span {
+        color: var(--primary-color);
+        border: 1px solid var(--primary-color-light);
+        border-radius: 0.4rem;
+        padding: 1rem 1.6rem;
+        font-weight: 600;
+        font-size: var(--font-size-medium);
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+    }
+  }
+
+  a.custom-button {
+    margin-top: 3.2rem;
+  }
+}

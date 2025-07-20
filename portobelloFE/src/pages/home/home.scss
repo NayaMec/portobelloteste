@@ -1,0 +1,37 @@
+.home {
+  padding-bottom: 4rem;
+}
+
+.home .orders-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1.6rem;
+  border-bottom: 0.2rem solid var(--gray-1);
+
+  strong {
+    font-size: 2.4rem;
+  }
+
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+    border: 0.2rem solid var(--primary-color);
+    padding: 1rem 1.6rem;
+    border-radius: 0.4rem;
+    transition: var(--transition);
+
+    &:hover {
+      background-color: var(--primary-color);
+      color: var(--white);
+    }
+  }
+}
+
+.home .cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  margin-top: 4rem;
+}

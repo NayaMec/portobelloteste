@@ -1,0 +1,24 @@
+.custom-input {
+  width: 100%;
+  height: 5rem;
+  border-radius: 0.4rem;
+  background-color: #fff;
+  border: 0.2rem solid var(--gray-2);
+  box-shadow: none;
+  outline: 0;
+  padding: 0 1.6rem;
+  transition: var(--transition);
+
+  &::placeholder {
+    color: var(--gray-3);
+  }
+
+  &:focus {
+    border-color: var(--primary-color);
+  }
+
+  &.-error {
+    color: var(--red);
+    border-color: var(--red) !important;
+  }
+}

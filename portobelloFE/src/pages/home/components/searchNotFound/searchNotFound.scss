@@ -1,0 +1,21 @@
+.search-not-found {
+  margin-top: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  svg {
+    color: var(--red);
+    min-width: 8rem;
+  }
+
+  p {
+    margin-left: 2.4rem;
+    color: var(--gray-3);
+    word-break: break-word;
+
+    strong {
+      color: var(--primary-color);
+    }
+  }
+}

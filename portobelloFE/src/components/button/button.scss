@@ -1,0 +1,42 @@
+.custom-button {
+  height: 5.2rem;
+  border: none;
+  padding: 0 1.6rem;
+  outline: none;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 4px;
+  box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.04);
+  min-width: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+
+  &:hover {
+    background-color: var(--primary-color-light);
+  }
+
+  &:active {
+    background-color: var(--primary-color-dark);
+  }
+
+  &:disabled {
+    background-color: var(--gray-2);
+    cursor: not-allowed;
+  }
+
+  &.-danger {
+    background-color: var(--red);
+
+    &:hover {
+      background-color: var(--red-light);
+    }
+
+    &:active {
+      background-color: var(--red-dark);
+    }
+  }
+}

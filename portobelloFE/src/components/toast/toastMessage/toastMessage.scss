@@ -1,0 +1,25 @@
+.toast-message {
+  padding: 1.6rem 3.2rem;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-radius: 0.4rem;
+  box-shadow: 0 2rem 2rem -1.6rem rgba(0, 0, 0, 0.25);
+  border: 0.1rem solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  cursor: pointer;
+
+  &:focus {
+    border-color: var(--primary-color);
+  }
+
+  &.-danger {
+    background-color: var(--red);
+  }
+
+  &.-success {
+    background-color: var(--green);
+  }
+}

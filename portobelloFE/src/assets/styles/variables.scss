@@ -1,0 +1,43 @@
+:root {
+  --font-color-base: #363636;
+  --font-weight-base: 400;
+
+  --font-size-title: 3rem;
+  --font-weight-title: 700;
+
+  --font-size-subtitle: 2.4rem;
+  --font-weight-subtitle: 600;
+
+  --line-height: 1.5;
+
+  --font-size-small: 1.2rem;
+  --font-size-base: 1.4rem;
+  --font-size-medium: 1.6rem;
+  --font-size-big: 1.8rem;
+
+  //// COLORS ////
+  --white: #fff;
+  --black: #16161d;
+  --red-light: #f97171;
+  --red: #ee2a2a;
+  --red-dark: #cd1515;
+
+  --yellow-light: #f7da31;
+  --yellow: #eab308;
+  --yellow-dark: #c8a406;
+
+  --green: #51ca73;
+
+  --gray-1: #f9f9f9;
+  --gray-2: #e1e1e1;
+  --gray-3: #808080;
+  --gray-4: #464646;
+
+  --primary-color: #082654;
+  --primary-color-light: #4b68a3;
+  --primary-color-dark: #041732;
+  --secondary-color: #828a8f;
+
+  //////// TRANSITIONS ////////
+  --transition: all 0.25s ease-in-out;
+}

@@ -1,0 +1,6 @@
+com\exemplo\crud\exception\PedidoException.class
+com\exemplo\crud\model\Pedido.class
+com\exemplo\crud\service\PedidoService.class
+com\exemplo\crud\controller\PedidoController.class
+com\exemplo\crud\repository\PedidoRepository.class
+com\exemplo\crud\model\Pedido$StatusPedido.class
